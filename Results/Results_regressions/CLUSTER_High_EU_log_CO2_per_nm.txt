@@ -1,0 +1,33 @@
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:         log_CO2_per_nm   R-squared:                        0.0071
+Estimator:                   PanelOLS   R-squared (Between):              0.0212
+No. Observations:              533273   R-squared (Within):               0.0025
+Date:                Thu, Jun 04 2026   R-squared (Overall):              0.0249
+Time:                        18:00:01   Log-likelihood                 2.341e+05
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      1243.0
+Entities:                       13664   P-value                           0.0000
+Avg Obs:                       39.028   Distribution:                F(3,519457)
+Min Obs:                       1.0000                                           
+Max Obs:                       150.00   F-statistic (robust):             443.60
+                                        P-value                           0.0000
+Time periods:                     150   Distribution:                F(3,519457)
+Avg Obs:                       3555.2                                           
+Min Obs:                       221.00                                           
+Max Obs:                       4055.0                                           
+                                                                                
+                              Parameter Estimates                              
+===============================================================================
+             Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------
+Interaction     0.0404     0.0028     14.543     0.0000      0.0349      0.0458
+ETS_Rate       -0.0337     0.0023    -14.512     0.0000     -0.0382     -0.0291
+ETS_x_Time     -0.0003  2.721e-05    -9.9525     0.0000     -0.0003     -0.0002
+===============================================================================
+
+F-test for Poolability: 195.80
+P-value: 0.0000
+Distribution: F(13812,519457)
+
+Included effects: Entity, Time
